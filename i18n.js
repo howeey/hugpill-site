@@ -51,7 +51,7 @@ window.HUGPILL_I18N = {
         key: "04_cabin",
         tab: "Pet Cabin",
         title: "Zero-Guilt 5-Stage Growth",
-        desc: "Missed a dose? No red warnings or lost streaks. Earn cozy water drops every time you check in to unlock tiny hats, mugs, and cabin decor.",
+        desc: "Missed a dose? Your pet never loses levels or gets sick, and there are no scary red warnings. Earn cozy water drops every time you check in to unlock tiny hats, mugs, and cabin decor.",
       },
       {
         key: "05_footprints_privacy",
@@ -75,7 +75,7 @@ window.HUGPILL_I18N = {
           badgeClass: "badge-sage",
           badge: "Family & Schedules",
           title: "2×2 Family Grid & 4 Schedule Modes",
-          body: "Tag cards for Me, Kid 1, Kid 2, Partner, Mom, or Dad. Supports daily, specific weekdays, every-X-days, and X-days-on / Y-days-off cycles—with rest days tucked away cleanly.",
+          body: "Tag cards for Me, Kid 1, Kid 2, Partner, Mom, or Dad. Supports daily, specific weekdays, every few days, and on/off cycles (like 21 days on, 7 off)—with rest days tucked away cleanly.",
         },
         {
           badgeClass: "badge-peach",
@@ -86,18 +86,18 @@ window.HUGPILL_I18N = {
         {
           badgeClass: "badge-apricot",
           badge: "100% Private",
-          title: "Zero Guilt, Zero Servers, Zero Tracking",
-          body: "No account creation, no analytics SDKs, no camera permissions. Your routines live locally and sync safely via your personal Apple iCloud, with one-tap local JSON backup.",
+          title: "No Sign-Up, Zero Servers, Zero Tracking",
+          body: "No accounts, no ads, no third-party tracking, and no camera permissions. Your routines stay on your iPhone and sync safely via your personal Apple iCloud, with one-tap local backup.",
         },
       ],
-      demoTitle: "See how one check-in clears the queue",
+      demoTitle: "See how one check-in stops the rest of today's nudges",
       demoBtnTaken: "Simulate “Taken” Tap",
       demoBtnReset: "Reset Demo",
       demoSteps: [
         { time: "08:30", pending: "First chime (Music Box)", cleared: "08:30 · Chime rang" },
         { time: "09:00", pending: "+30m gentle nudge", cleared: "09:02 · Tapped Taken on widget" },
-        { time: "10:00", pending: "+1h follow-up queued", cleared: "Cancelled automatically" },
-        { time: "11:00+", pending: "Hourly until 23:59", cleared: "Cleared · Queue refreshed" },
+        { time: "10:00", pending: "+1h follow-up scheduled", cleared: "Cancelled automatically" },
+        { time: "11:00+", pending: "Hourly until 23:59", cleared: "Stopped · Ready for tomorrow" },
       ],
     },
     showcase: {
@@ -134,7 +134,7 @@ window.HUGPILL_I18N = {
           "Smiling Axolotl 5-stage cozy growth cabin",
           "Home Screen 2×2, Small, Medium, Large & Lock Screen widgets",
           "28-day opened eye-drop timer & 4 schedule rules",
-          "Private Apple iCloud sync & local JSON backup",
+          "Private Apple iCloud sync & local file backup",
         ],
       },
       plus: {
@@ -146,8 +146,8 @@ window.HUGPILL_I18N = {
           "Unlimited medication, supplement & family cards",
           "Unlock Cozy Otter companion + Home Screen dynamic App Icon",
           "4 seasonal pet outfits (Spring, Summer, Autumn, Winter)",
-          "Full family multi-role badge organization",
-          "Export HD monthly footprint check-in poster",
+          "Color badges for everyone in your household",
+          "Export HD monthly history summary image",
           "Supports independent dad-built development",
         ],
       },
@@ -172,7 +172,7 @@ window.HUGPILL_I18N = {
         },
         {
           q: "What dosing schedules and eye drops does it support?",
-          a: "Daily, specific weekdays, every-X-days, and X-days-on / Y-days-off cycles (with 21/7 & 30/7 presets)—plus 28-day opened bottle countdowns for eye drops and color badges for family members.",
+          a: "Daily, specific weekdays, every few days, and on/off cycles (with 21/7 & 30/7 presets)—plus 28-day opened bottle countdowns for eye drops and color badges for family members.",
         },
       ],
     },
@@ -208,7 +208,7 @@ window.HUGPILL_I18N = {
       eyebrow: "iPhone · iOS 18+ · 零广告 · 免注册",
       title: "忘记吃药不怪你，微笑六角龙陪你稳稳打卡到吃过为止。",
       subtitle:
-        "每天的维生素 D、常备药和眼药水，交给我们。+30 分钟后温柔追问、桌面 2×2 全家四宫格抬手即点，不建账号、不传外部服务器。",
+        "每天的维生素 D、常备药和眼药水，让微笑六角龙温柔陪你记着。漏吃 30 分钟后轻声追问、桌面 2×2 全家四宫格抬手即点，免注册、无外部服务器。",
       ctaReview: "App Store 审核中 · 敬请期待",
       ctaLive: "前往 App Store 下载",
       ctaStory: "看看我为什么做它",
@@ -239,13 +239,13 @@ window.HUGPILL_I18N = {
         key: "04_cabin",
         tab: "成长小屋",
         title: "只奖励不惩罚的 5 阶养成",
-        desc: "漏吃不掉级、没有红字责备。每次打卡攒水滴，帮六角龙和小水獭解锁小雏菊、保温杯和暖光小屋。",
+        desc: "漏吃不扣水滴、不掉等级，也没有刺眼的红字警告。每次打卡攒水滴，帮六角龙和小水獭解锁小雏菊、保温杯和暖光小屋。",
       },
       {
         key: "05_footprints_privacy",
         tab: "足迹与隐私",
         title: "安心足迹日历与纯本地 + iCloud",
-        desc: "翻看每月小脚印全勤印章，支持导出打卡长图。零外部服务器、零相机相册权限、零广告追踪。",
+        desc: "翻看每月小脚印全勤印章，支持导出打卡长图。不连外部服务器、不索要相机相册权限、也没有广告追踪。",
       },
     ],
     features: {
@@ -263,7 +263,7 @@ window.HUGPILL_I18N = {
           badgeClass: "badge-sage",
           badge: "全家共管",
           title: "2×2 家庭四宫格 + 4 种吃药周期",
-          body: "支持每天吃、按星期多选、隔 X 天吃、吃 X 天停 Y 天（内置 21/7、30/7 模板），轮休日自动折叠防误吃；全家人的补剂放在桌面四宫格一屏点完。",
+          body: "支持每天吃、按星期多选、隔几天吃、吃几天停几天（内置 21/7、30/7 模板），轮休日自动折叠防误吃；全家人的补剂放在桌面四宫格一屏点完。",
         },
         {
           badgeClass: "badge-peach",
@@ -274,18 +274,18 @@ window.HUGPILL_I18N = {
         {
           badgeClass: "badge-apricot",
           badge: "100% 隐私",
-          title: "零内疚、零服务器、零追踪",
-          body: "不设账号体系、没有广告和第三方统计 SDK。所有记录只存在手机本地和你的私人 Apple iCloud，也支持导出 JSON 本地备份。",
+          title: "免注册、零服务器、零追踪",
+          body: "不用注册登录，没有广告和第三方追踪，也不请求相机和相册权限。所有记录只存在手机本地和你的私人 Apple iCloud，并支持导出本地备份文件。",
         },
       ],
-      demoTitle: "点一下体验“打卡即止追问”",
+      demoTitle: "点一下体验“打完卡，后续提醒立刻停”",
       demoBtnTaken: "模拟点一下“吃过啦”",
       demoBtnReset: "重置演示",
       demoSteps: [
         { time: "08:30", pending: "准点首响（风铃八音盒）", cleared: "08:30 · 已响首条提醒" },
         { time: "09:00", pending: "+30 分首次轻声追问", cleared: "09:02 · 桌面小组件已打卡" },
         { time: "10:00", pending: "+1 小时后续追问", cleared: "已自动取消，不再响铃" },
-        { time: "11:00+", pending: "每小时守护至 23:59", cleared: "队列已清空并自动续杯明天" },
+        { time: "11:00+", pending: "每小时守护至 23:59", cleared: "今日剩余提醒已清空，明天照常提醒" },
       ],
     },
     showcase: {
@@ -322,7 +322,7 @@ window.HUGPILL_I18N = {
           "微笑六角龙 5 阶暖心成长小屋",
           "2×2 家庭四宫格、小/中/大号桌面及锁屏小组件",
           "眼药水开封 28 天倒计时与 4 种周期排期",
-          "个人 Apple iCloud 加密同步与本地 JSON 备份",
+          "个人 Apple iCloud 加密同步与本地备份文件",
         ],
       },
       plus: {
@@ -333,7 +333,7 @@ window.HUGPILL_I18N = {
         items: [
           "无限添加药品、补剂与家人提醒卡片",
           "解锁暖心小水獭伙伴 + 桌面 App 图标联动切换",
-          "4 套四季限定宠物配饰（春樱/夏帽/秋围巾/冬圣诞）",
+          "4 套四季限定宠物配饰（春樱领巾/夏夜草帽/秋橙围巾/冬日围巾）",
           "全家多角色标签管理与无限扩展",
           "导出高清月度打卡足迹长图",
           "支持独立爸爸持续打磨更新",
@@ -360,7 +360,7 @@ window.HUGPILL_I18N = {
         },
         {
           q: "支持哪些服药规律？非每天吃的补剂和眼药水能记吗？",
-          a: "支持每天吃、按星期多选、隔 X 天吃、吃 X 天停 Y 天（内置 21/7 与 30/7 模板）四种规律，轮休日会自动收起防误吃；同时支持眼药水开封 28 天倒计时与全家彩色角标。",
+          a: "支持每天吃、按星期多选、隔几天吃、吃几天停几天（内置 21/7 与 30/7 模板）四种规律，轮休日会自动收起防误吃；同时支持眼药水开封 28 天倒计时与全家彩色角标。",
         },
       ],
     },
@@ -385,7 +385,7 @@ window.HUGPILL_I18N = {
     brandName: "藥寶寶 · HugPill",
     pageTitle: "藥寶寶 HugPill — 微笑六角龍陪伴吃藥、保健品與眼藥水提醒 App",
     metaDescription:
-      "一位兩個女兒的爸爸開發的療癒吃藥與保健品提醒 iPhone 小工具。支援智能階梯追問、2×2 家庭四宮格桌面小工具、眼藥水開封 28 天倒計時與零伺服器隱私保護。",
+      "一位兩個女兒的爸爸開發的療癒吃藥與保健品提醒 iPhone 小工具。支援智慧階梯追問、2×2 家庭四宮格桌面小工具、眼藥水開封 28 天倒數與零伺服器隱私保護。",
     nav: {
       features: "核心亮點",
       screens: "畫面預覽",
@@ -414,26 +414,26 @@ window.HUGPILL_I18N = {
       {
         key: "02_family",
         tab: "全家與滴劑",
-        title: "家人彩色角標與眼藥水 28 天倒計時",
+        title: "家人彩色角標與眼藥水 28 天倒數",
         desc: "用自己、大寶、二寶、太太、先生彩色角標分清同款維他命 D；眼藥水自動倒數開封後 28 天保鮮期。",
       },
       {
         key: "03_widgets",
         tab: "桌面小工具",
         title: "免開 App，在桌面抬手打卡",
-        desc: "內建 2×2 家庭四宮格、自動頂替中號小工具、自適應大號小工具與鎖定畫面進度圈。",
+        desc: "內建 2×2 家庭四宮格、自動遞補中號小工具、自適應大型小工具與鎖定畫面進度圈。",
       },
       {
         key: "04_cabin",
         tab: "成長小屋",
         title: "只獎勵不懲罰的 5 階養成",
-        desc: "漏吃不扣分、沒有紅字警告。每次打卡累積水滴，幫六角龍與小水獺解鎖小雛菊、保溫杯與暖光小屋。",
+        desc: "漏吃不扣水滴、不掉等級，也沒有刺眼的紅字警告。每次打卡累積水滴，幫六角龍與小水獺解鎖小雛菊、保溫杯與暖光小屋。",
       },
       {
         key: "05_footprints_privacy",
         tab: "足跡與隱私",
         title: "安心足跡日曆與純本機 + iCloud",
-        desc: "查看每月小腳印印章與匯出打卡長圖。零伺服器、零相機權限、零廣告追蹤。",
+        desc: "查看每月小腳印印章與匯出紀錄長圖。不連外部伺服器、不要求相機相簿權限，也沒有廣告追蹤。",
       },
     ],
     features: {
@@ -444,36 +444,36 @@ window.HUGPILL_I18N = {
         {
           badgeClass: "badge-amber",
           badge: "ADHD 友善",
-          title: "智能階梯連環追問（先 30 分後 1 小時）",
+          title: "智慧階梯連環追問（先 30 分後 1 小時）",
           body: "準點未打卡會在 30 分鐘後輕聲再問一次，之後拉長為每小時溫和提醒至睡前（預設 23:59 可調）。在鎖定畫面或桌面點下「吃過啦」，剩餘提醒立刻自動清空。",
         },
         {
           badgeClass: "badge-sage",
           badge: "全家共用",
           title: "2×2 家庭四宮格 + 4 種服用週期",
-          body: "支援每天吃、按星期選擇、隔 X 天吃、吃 X 天停 Y 天（內建 21/7、30/7 快捷鍵），輪休日自動摺疊防誤吃；全家保健品放在桌面四宮格一屏點完。",
+          body: "支援每天吃、按星期選擇、隔幾天吃、吃幾天停幾天（內建 21/7、30/7 快捷鍵），輪休日自動摺疊防誤吃；全家保健品放在桌面四宮格一眼點完。",
         },
         {
           badgeClass: "badge-peach",
           badge: "眼藥水模式",
           title: "專屬「滴過啦」與開封 28 天倒數",
-          body: "切換為滴劑／外用模式後，全端按鈕自動改為「滴過啦」，並自動記錄開封日與 28 天保鮮倒計時。",
+          body: "切換為滴劑／外用模式後，全端按鈕自動改為「滴過啦」，並自動記錄開封日與 28 天保鮮倒數。",
         },
         {
           badgeClass: "badge-apricot",
           badge: "100% 隱私",
-          title: "零內疚、零伺服器、零追蹤",
-          body: "免建立帳號、無任何廣告或第三方追蹤。資料只存於本機與你的私人 Apple iCloud，並支援本機 JSON 匯出還原。",
+          title: "免註冊、零伺服器、零追蹤",
+          body: "免建立帳號、沒有廣告或第三方追蹤，也不要求相機與相簿權限。資料只存於本機與你的私人 Apple iCloud，並支援本機檔案匯出還原。",
         },
       ],
       demoTitle: "試試看「點一下就停止後續提醒」",
       demoBtnTaken: "模擬點擊「吃過啦」",
       demoBtnReset: "重設示範",
       demoSteps: [
-        { time: "08:30", pending: "準點首響（風鈴八音盒）", cleared: "08:30 · 已響首條提醒" },
+        { time: "08:30", pending: "準點首響（風鈴音樂盒）", cleared: "08:30 · 已響首條提醒" },
         { time: "09:00", pending: "+30 分首次輕聲追問", cleared: "09:02 · 桌面小工具已打卡" },
         { time: "10:00", pending: "+1 小時後續追問", cleared: "已自動取消，不再打擾" },
-        { time: "11:00+", pending: "每小時守護至 23:59", cleared: "佇列已清空並自動排明天" },
+        { time: "11:00+", pending: "每小時守護至 23:59", cleared: "今日剩餘提醒已清空，明天照常提醒" },
       ],
     },
     showcase: {
@@ -486,7 +486,7 @@ window.HUGPILL_I18N = {
       title: "一位兩個女兒的爸爸，為什麼寫了「藥寶寶」",
       paragraphs: [
         "我有兩個女兒，大的 10 歲、小的 5 歲。家裡每天要顧大人小孩的維他命 D、日常保健品還有眼藥水。我超受不了手機鬧鐘——早上恍神滑掉，十分鐘後就完全想不起到底吃了沒。",
-        "找了幾個吃藥軟體，不是像冷冰冰的醫院表單，就是一打開就要註冊看廣告。於是我趁晚上孩子睡了之後，親手寫了這個小工具：讓一隻微笑六角龍捧著暖水杯在桌面陪我們。",
+        "找了幾個吃藥 App，不是像冷冰冰的醫院表單，就是一打開就要註冊看廣告。於是我趁晚上孩子睡了之後，親手寫了這個小工具：讓一隻微笑六角龍捧著暖水杯在桌面陪我們。",
         "1.0 正式版剛送交 Apple 審核，即將在全球 171 個國家與地區上架（香港、台灣、澳門與海外皆可下載）。希望它也能幫你和家人輕鬆記住每一份照顧。",
       ],
       sign: "— 一位兩個女兒的爸爸 · hugpill@icloud.com",
@@ -498,7 +498,7 @@ window.HUGPILL_I18N = {
     pricing: {
       kicker: "簡單透明的定價",
       title: "日常基礎免費使用，喜歡再考慮買斷",
-      desc: "免費版已包含智能追問、全部桌面小工具、眼藥水 28 天追蹤、六角龍養成與 iCloud 備份。",
+      desc: "免費版已包含智慧追問、全部桌面小工具、眼藥水 28 天倒數、六角龍養成與 iCloud 備份。",
       free: {
         name: "免費版",
         badge: "最多 3 項提醒",
@@ -506,11 +506,11 @@ window.HUGPILL_I18N = {
         sub: "無試用陷阱 · 零廣告",
         items: [
           "最多 3 項吃藥、保健品或眼藥水提醒",
-          "智能階梯連環追問（+30 分後每 1 小時）",
+          "智慧階梯連環追問（+30 分後每 1 小時）",
           "微笑六角龍 5 階暖心成長小屋",
-          "2×2 家庭四宮格、小/中/大號桌面與鎖定畫面小工具",
-          "眼藥水開封 28 天倒計時與 4 種週期規則",
-          "私人 Apple iCloud 加密同步與本機 JSON 備份",
+          "2×2 家庭四宮格、小／中／大型桌面與鎖定畫面小工具",
+          "眼藥水開封 28 天倒數與 4 種週期規則",
+          "私人 Apple iCloud 加密同步與本機檔案備份",
         ],
       },
       plus: {
@@ -521,10 +521,10 @@ window.HUGPILL_I18N = {
         items: [
           "無限新增藥品、保健品與家人提醒卡片",
           "解鎖暖心小水獺夥伴 + 動態切換手機桌面圖示",
-          "4 套四季限定寵物配飾（春櫻/夏帽/秋圍巾/冬聖誕）",
+          "4 套四季限定寵物配飾（春櫻領巾／夏夜草帽／秋橙圍巾／冬日圍巾）",
           "家庭成員多角色角標管理",
-          "匯出高畫質月度打卡足跡長圖",
-          "支持獨立奶爸持續維護更新",
+          "匯出高畫質月度服藥紀錄長圖",
+          "支持獨立開發爸爸持續維護更新",
         ],
       },
       finePrint:
@@ -548,7 +548,7 @@ window.HUGPILL_I18N = {
         },
         {
           q: "支援哪些吃藥頻率？不是每天吃的保健品或眼藥水也能記嗎？",
-          a: "支援每天吃、按星期選擇、隔 X 天吃、吃 X 天停 Y 天（內建 21/7 與 30/7 快捷鍵）四種週期，輪休日會自動收起防誤吃；並內建眼藥水開封 28 天保鮮倒數與家人彩色角標。",
+          a: "支援每天吃、按星期選擇、隔幾天吃、吃幾天停幾天（內建 21/7 與 30/7 快捷鍵）四種週期，輪休日會自動收起防誤吃；並內建眼藥水開封 28 天保鮮倒數與家人彩色角標。",
         },
       ],
     },
@@ -609,13 +609,13 @@ window.HUGPILL_I18N = {
         key: "03_widgets",
         tab: "ウィジェット",
         title: "アプリを開かずにホーム画面から記録",
-        desc: "2×2家族グリッドや、未服用を自動で前に繰り上げるウィジェット、ロック画面の進捗リングまで勢ぞろい。",
+        desc: "2×2家族グリッドや、未服用を自動で前に繰り上げるウィジェット、ロック画面の進捗リングまで対応しています。",
       },
       {
         key: "04_cabin",
         tab: "育成小屋",
         title: "プレッシャーゼロの5段階育成",
-        desc: "飲み忘れてもペナルティや赤い警告は一切なし。記録するたびにもらえるしずくで、お花やカップ、お部屋の飾りが増えます。",
+        desc: "飲み忘れてもレベルが下がったり、赤い警告が出たりしません。記録するたびにもらえるしずくで、お花やカップ、お部屋の飾りが増えます。",
       },
       {
         key: "05_footprints_privacy",
@@ -639,7 +639,7 @@ window.HUGPILL_I18N = {
           badgeClass: "badge-sage",
           badge: "家族対応",
           title: "2×2家族グリッド＆4種類の服用サイクル",
-          body: "毎日・曜日指定・X日おき・X日服用Y日休薬（21/7・30/7ワンタップ対応）に対応。休薬日はホームでそっと折り畳み、誤飲を防ぎます。",
+          body: "毎日・曜日指定・数日おき・服用日と休薬日のサイクル（21/7・30/7ワンタップ対応）に対応。休薬日はホームでそっと折り畳み、誤飲を防ぎます。",
         },
         {
           badgeClass: "badge-peach",
@@ -651,7 +651,7 @@ window.HUGPILL_I18N = {
           badgeClass: "badge-apricot",
           badge: "完全プライベート",
           title: "登録不要・外部サーバーなし・広告ゼロ",
-          body: "会員登録も解析SDKもカメラ権限もなし。記録はiPhone本体とご自身のApple iCloudにのみ暗号化保存され、JSONバックアップも可能です。",
+          body: "会員登録も広告・追跡もカメラ権限もなし。記録はiPhone本体とご自身のApple iCloudにのみ暗号化保存され、端末へのバックアップ書き出しにも対応しています。",
         },
       ],
       demoTitle: "ワンタップで残りの通知が止まる流れ",
@@ -661,7 +661,7 @@ window.HUGPILL_I18N = {
         { time: "08:30", pending: "定時通知（オルゴール音）", cleared: "08:30 · 定時通知を受信" },
         { time: "09:00", pending: "+30分 最初の再通知", cleared: "09:02 · ウィジェットで完了" },
         { time: "10:00", pending: "+1時間ごとの追加通知", cleared: "自動キャンセル済み" },
-        { time: "11:00+", pending: "23:59まで1時間おき待機", cleared: "キューを整理し翌日に備え済み" },
+        { time: "11:00+", pending: "23:59まで1時間おき待機", cleared: "今日の残り通知を停止・翌日の予定を準備済み" },
       ],
     },
     showcase: {
@@ -691,14 +691,14 @@ window.HUGPILL_I18N = {
         name: "無料プラン",
         badge: "3件まで登録OK",
         price: "$0",
-        sub: "お試し課金誘導なし・広告なし",
+        sub: "無料のまま使い続けられます・広告なし",
         items: [
           "お薬・サプリ・目薬を3件まで登録",
           "段階フォロー通知（+30分 → 以後1時間おき）",
           "ウーパールーパー5段階育成小屋",
           "2×2家族グリッド・小/中/大・ロック画面ウィジェット",
           "目薬の開封28日カウント＆4種の服用スケジュール",
-          "ご自身のiCloud暗号化同期＆ローカルJSONバックアップ",
+          "ご自身のiCloud暗号化同期＆端末へのバックアップ書き出し",
         ],
       },
       plus: {
@@ -736,13 +736,13 @@ window.HUGPILL_I18N = {
         },
         {
           q: "毎日以外のお薬や周期的なサプリ、目薬にも対応していますか？",
-          a: "毎日・曜日指定・X日おき・X日服用Y日休薬（21/7・30/7プリセット付き）の4種類に対応し、休薬日は自動で折り畳まれます。目薬の開封後28日カウントや家族別カラータグも標準搭載です。",
+          a: "毎日・曜日指定・数日おき・服用日と休薬日のサイクル（21/7・30/7プリセット付き）の4種類に対応し、休薬日は自動で折り畳まれます。目薬の開封後28日カウントや家族別カラータグも標準搭載です。",
         },
       ],
     },
     modal: {
       title: "App Store 審査中です",
-      body: "HugPill 1.0 はただいま Apple の審査キューに入っています。日本を含む171の国と地域で公開され次第、このボタンからそのままダウンロードできるようになります。ご質問は hugpill@icloud.com までお気軽にどうぞ。",
+      body: "HugPill 1.0 はただいま Apple の審査待ちの状態です。日本を含む171の国と地域で公開され次第、このボタンからそのままダウンロードできるようになります。ご質問は hugpill@icloud.com までお気軽にどうぞ。",
       emailBtn: "hugpill@icloud.com へメール",
       closeBtn: "閉じる",
     },
@@ -784,7 +784,7 @@ window.HUGPILL_I18N = {
       {
         key: "01_home",
         tab: "오늘의 동행",
-        title: "눈이 편안한 따뜻한 밤차 테마",
+        title: "눈이 편안한 따뜻한 다크 테마",
         desc: "미소 짓는 우파루파가 따뜻한 컵을 들고 기다려요. ‘먹었어요 / 점안 완료’를 누르면 함께 물을 마시며 응원해요.",
       },
       {
@@ -803,7 +803,7 @@ window.HUGPILL_I18N = {
         key: "04_cabin",
         tab: "성장 오두막",
         title: "부담 제로 5단계 성장 시스템",
-        desc: "하루 놓쳐도 연속 기록 벌점이나 빨간 경고가 없어요. 체크인마다 모이는 물방울로 귀여운 장식과 소품을 열 수 있어요.",
+        desc: "하루 놓쳐도 레벨이나 물방울이 줄어들지 않고, 빨간 경고도 없어요. 체크인할 때마다 모이는 물방울로 귀여운 장식과 소품을 열 수 있어요.",
       },
       {
         key: "05_footprints_privacy",
@@ -827,7 +827,7 @@ window.HUGPILL_I18N = {
           badgeClass: "badge-sage",
           badge: "온 가족 케어",
           title: "2×2 가족 위젯 & 4가지 복용 주기",
-          body: "매일, 요일 선택, N일 간격, X일 복용·Y일 휴식(21/7·30/7 버튼 제공)까지 지원해요. 쉬는 날 약은 홈에서 접어두어 오복용을 막아줘요.",
+          body: "매일, 요일 선택, 수일 간격, 복용·휴약 주기(21/7·30/7 버튼 제공)까지 지원해요. 쉬는 날 약은 홈에서 접어두어 오복용을 막아줘요.",
         },
         {
           badgeClass: "badge-peach",
@@ -838,18 +838,18 @@ window.HUGPILL_I18N = {
         {
           badgeClass: "badge-apricot",
           badge: "100% 프라이버시",
-          title: "죄책감 제로 · 서버 제로 · 추적 제로",
-          body: "계정 로그인, 외부 서버, 광고 SDK, 사진/카메라 권한이 전혀 없어요. 모든 기록은 기기와 개인 Apple iCloud에만 저장되며 JSON 백업도 지원해요.",
+          title: "가입 없음 · 외부 서버 없음 · 추적 없음",
+          body: "회원가입, 외부 서버, 광고 및 추적, 사진/카메라 권한 요청이 전혀 없어요. 모든 기록은 기기와 개인 Apple iCloud에만 안전하게 보관되며 백업 파일 내보내기도 지원해요.",
         },
       ],
-      demoTitle: "체크인 한 번으로 남은 알림이 정리되는 과정",
+      demoTitle: "체크인 한 번으로 남은 알림이 멈추는 과정",
       demoBtnTaken: "‘먹었어요’ 눌러보기",
       demoBtnReset: "데모 초기화",
       demoSteps: [
         { time: "08:30", pending: "정시 첫 알림 (오르골 벨소리)", cleared: "08:30 · 첫 알림 도착" },
         { time: "09:00", pending: "+30분 첫 재알림", cleared: "09:02 · 홈 위젯에서 체크 완료" },
         { time: "10:00", pending: "+1시간 간격 재알림", cleared: "자동 취소됨 (더 울리지 않음)" },
-        { time: "11:00+", pending: "23:59까지 매시간 대기", cleared: "대기열 정리 및 내일 일정 준비 완료" },
+        { time: "11:00+", pending: "23:59까지 매시간 대기", cleared: "오늘 남은 알림 해제 · 내일 일정 자동 준비" },
       ],
     },
     showcase: {
@@ -886,7 +886,7 @@ window.HUGPILL_I18N = {
           "우파루파 5단계 성장 오두막",
           "2×2 가족 위젯·소/중/대형 및 잠금 화면 위젯",
           "안약 개봉 28일 카운트다운 & 4가지 복용 주기",
-          "개인 Apple iCloud 암호화 동기화 & 로컬 JSON 백업",
+          "개인 Apple iCloud 암호화 동기화 & 백업 파일 내보내기",
         ],
       },
       plus: {
@@ -924,7 +924,7 @@ window.HUGPILL_I18N = {
         },
         {
           q: "매일 먹지 않는 영양제나 주기적인 약, 안약도 기록할 수 있나요?",
-          a: "매일, 요일 선택, N일 간격, X일 복용·Y일 휴식(21/7·30/7 프리셋 포함) 4가지 주기를 지원하며 쉬는 날엔 자동으로 접혀 오복용을 막아줘요. 안약 개봉 28일 카운트다운과 가족 컬러 태그도 기본 제공됩니다.",
+          a: "매일, 요일 선택, 수일 간격, 복용·휴약 주기(21/7·30/7 프리셋 포함) 4가지 주기를 지원하며 쉬는 날엔 자동으로 접혀 오복용을 막아줘요. 안약 개봉 28일 카운트다운과 가족 컬러 태그도 기본 제공됩니다.",
         },
       ],
     },
