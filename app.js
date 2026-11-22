@@ -52,15 +52,37 @@
     return path.split(".").reduce((acc, part) => (acc ? acc[part] : undefined), obj);
   }
 
+  function resolveStoreInfo(cfg) {
+    const rawId = typeof cfg.appStoreID === "string" ? cfg.appStoreID.trim() : "";
+    const validId = /^\d{6,14}$/.test(rawId) ? rawId : "";
+    const rawUrl = typeof cfg.appStoreURL === "string" ? cfg.appStoreURL.trim() : "";
+    const storeUrl = rawUrl || (validId ? `https://apps.apple.com/app/id${validId}` : "");
+    return { validId, storeUrl };
+  }
+
   function applyConfigLinks(dict) {
     const cfg = window.HUGPILL_CONFIG || {};
+    const { validId, storeUrl } = resolveStoreInfo(cfg);
     const primaryCta = document.getElementById("primary-cta");
     const primaryCtaLabel = document.getElementById("primary-cta-label");
-    const hasStoreUrl = Boolean(cfg.appStoreURL && cfg.appStoreURL.trim());
+    const hasStoreUrl = Boolean(storeUrl);
+
+    // 动态兜底同步 iOS Smart App Banner（构建脚本亦会在打包时静态注入 <head>）
+    let smartBanner = document.querySelector('meta[name="apple-itunes-app"]');
+    if (validId) {
+      if (!smartBanner) {
+        smartBanner = document.createElement("meta");
+        smartBanner.setAttribute("name", "apple-itunes-app");
+        document.head.appendChild(smartBanner);
+      }
+      smartBanner.setAttribute("content", `app-id=${validId}`);
+    } else if (smartBanner) {
+      smartBanner.remove();
+    }
 
     if (primaryCta && primaryCtaLabel) {
       if (hasStoreUrl) {
-        primaryCta.setAttribute("href", cfg.appStoreURL.trim());
+        primaryCta.setAttribute("href", storeUrl);
         primaryCta.setAttribute("target", "_blank");
         primaryCta.setAttribute("rel", "noopener noreferrer");
         primaryCta.dataset.mode = "live";
