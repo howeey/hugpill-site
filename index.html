@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HugPill — Cute Pill, Vitamin &amp; Eye Drops Reminder for iPhone</title>
+    <meta
+      name="description"
+      content="A gentle, ADHD-friendly pill, vitamin & eye drop reminder built by a dad of two. Smart stepped nudges, 2x2 family Home Screen widgets, zero guilt, and 100% private iCloud sync."
+    />
+    <meta name="theme-color" content="#271F1B" />
+    <meta
+      property="og:title"
+      content="HugPill — Cute Pill, Vitamin & Eye Drops Reminder"
+    />
+    <meta
+      property="og:description"
+      content="A gentle pill buddy that nudges until you take it—never scolds you. Smart follow-ups, 2x2 family widgets, and private Apple iCloud sync."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/app-icon.webp" />
+
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">
+          <img
+            class="brand-icon"
+            src="./assets/app-icon.webp"
+            alt="HugPill icon"
+            width="36"
+            height="36"
+          />
+          <span data-i18n="brandName">HugPill</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#screenshots" data-i18n="nav.screens">Screenshots</a>
+          <a href="#story" data-i18n="nav.story">Dad's Story</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        </nav>
+
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button class="lang-btn is-active" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="zh-Hans">简</button>
+          <button class="lang-btn" type="button" data-lang="zh-Hant">繁</button>
+          <button class="lang-btn" type="button" data-lang="ja">日</button>
+          <button class="lang-btn" type="button" data-lang="ko">한</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="eyebrow-pill" data-i18n="hero.eyebrow">
+              iPhone · iOS 18+ · Zero Ads &amp; Zero Sign-Up
+            </div>
+            <h1 class="hero-title" data-i18n="hero.title">
+              A gentle pill buddy that nudges until you take it—never scolds you.
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+              Daily meds, kids' Vitamin D, and eye drops—quietly cared for by a smiling axolotl. Smart follow-ups, 2×2 family widgets, and zero external servers.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn-primary" id="primary-cta" href="#review-status">
+                <span aria-hidden="true"></span>
+                <span id="primary-cta-label" data-i18n="hero.ctaReview">
+                  App Store Review in Progress
+                </span>
+              </a>
+              <a class="btn-secondary" href="#story" data-i18n="hero.ctaStory">
+                Read why I built this
+              </a>
+            </div>
+
+            <div class="trust-row">
+              <span class="trust-chip">🛡️ <span data-i18n="hero.trust1">No account required</span></span>
+              <span class="trust-chip">☁️ <span data-i18n="hero.trust2">Your iCloud only</span></span>
+              <span class="trust-chip">🔔 <span data-i18n="hero.trust3">ADHD-friendly nudges</span></span>
+            </div>
+          </div>
+
+          <div class="hero-phone-wrap">
+            <div class="phone-frame">
+              <div class="phone-screen">
+                <img
+                  id="hero-phone-img"
+                  src="./assets/screens/en-US/01_home.webp"
+                  alt="HugPill Home Screen"
+                  width="660"
+                  height="1434"
+                />
+              </div>
+            </div>
+            <div class="phone-dots" id="hero-phone-tabs" role="tablist"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker" data-i18n="features.kicker">
+              What makes HugPill different
+            </span>
+            <h2 class="section-title" data-i18n="features.title">
+              Built for real mornings when you swipe away alarms on autopilot
+            </h2>
+            <p class="section-desc" data-i18n="features.desc">
+              Cold alarm clocks stop ringing the moment you dismiss them. HugPill stays quietly by your side until you actually tap Done.
+            </p>
+          </div>
+
+          <div class="features-grid" id="features-grid"></div>
+
+          <div class="nudge-demo">
+            <div class="nudge-top">
+              <h3 data-i18n="features.demoTitle">
+                See how one check-in clears the queue
+              </h3>
+              <button
+                class="btn-secondary"
+                id="nudge-toggle-btn"
+                type="button"
+              ></button>
+            </div>
+            <div class="nudge-steps" id="nudge-steps"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Showcase -->
+      <section class="section" id="screenshots">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker" data-i18n="showcase.kicker">
+              Inside the App
+            </span>
+            <h2 class="section-title" data-i18n="showcase.title">
+              Five screens, zero clutter
+            </h2>
+            <p class="section-desc" data-i18n="showcase.desc">
+              Every button is rounded, high-contrast, and easy to tap—even when you are half asleep or juggling breakfast for the kids.
+            </p>
+          </div>
+
+          <div class="showcase-panel">
+            <div class="hero-phone-wrap">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <img
+                    id="showcase-phone-img"
+                    src="./assets/screens/en-US/01_home.webp"
+                    alt="HugPill Screenshot"
+                    width="660"
+                    height="1434"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="showcase-list" id="showcase-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dad's Story -->
+      <section class="section" id="story">
+        <div class="container">
+          <div class="story-card">
+            <div>
+              <span class="section-kicker" data-i18n="story.kicker">
+                From the Developer
+              </span>
+              <h2 class="section-title" data-i18n="story.title">
+                Why a dad of two built HugPill
+              </h2>
+              <div class="story-body" id="story-paragraphs"></div>
+            </div>
+
+            <div class="buddies-box">
+              <div class="buddy-tile">
+                <img
+                  src="./assets/app-icon.webp"
+                  alt="Smiling Axolotl"
+                  width="96"
+                  height="96"
+                  loading="lazy"
+                />
+                <strong data-i18n="story.axolotlName">Smiling Axolotl</strong>
+                <span data-i18n="story.axolotlRole">Free default companion</span>
+              </div>
+              <div class="buddy-tile">
+                <img
+                  src="./assets/otter-icon.webp"
+                  alt="Cozy Otter"
+                  width="96"
+                  height="96"
+                  loading="lazy"
+                />
+                <strong data-i18n="story.otterName">Cozy Otter</strong>
+                <span data-i18n="story.otterRole">Plus buddy &amp; dynamic icon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker" data-i18n="pricing.kicker">
+              Simple, Honest Pricing
+            </span>
+            <h2 class="section-title" data-i18n="pricing.title">
+              Free for everyday essentials. One-time option if you want Plus.
+            </h2>
+            <p class="section-desc" data-i18n="pricing.desc">
+              Core reminders, stepped nudges, widgets, eye-drop tracking, and iCloud backup are all included in Free.
+            </p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <div class="price-head">
+                <h3 data-i18n="pricing.free.name">Free Forever</h3>
+                <span class="feature-badge badge-sage" data-i18n="pricing.free.badge">
+                  Up to 3 cards
+                </span>
+              </div>
+              <div class="price-tag" data-i18n="pricing.free.price">$0</div>
+              <div class="price-sub" data-i18n="pricing.free.sub">
+                No trial traps · No ads
+              </div>
+              <ul class="price-list" id="free-items"></ul>
+            </article>
+
+            <article class="price-card is-featured">
+              <div class="price-head">
+                <h3 data-i18n="pricing.plus.name">HugPill Plus</h3>
+                <span class="feature-badge badge-amber" data-i18n="pricing.plus.badge">
+                  Optional upgrade
+                </span>
+              </div>
+              <div class="price-tag" data-i18n="pricing.plus.price">$9.99 / yr</div>
+              <div class="price-sub" data-i18n="pricing.plus.sub">
+                Or $19.99 Lifetime (one-time purchase)
+              </div>
+              <ul class="price-list" id="plus-items"></ul>
+            </article>
+          </div>
+
+          <p class="fine-print" data-i18n="pricing.finePrint"></p>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <span class="section-kicker" data-i18n="faq.kicker">
+              Honest Answers
+            </span>
+            <h2 class="section-title" data-i18n="faq.title">
+              Questions you might have
+            </h2>
+          </div>
+          <div class="faq-list" id="faq-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="privacy">
+      <div class="container">
+        <div class="footer-row">
+          <strong data-i18n="brandName">HugPill</strong>
+          <div class="footer-links">
+            <a id="footer-privacy" href="#" target="_blank" rel="noopener noreferrer" data-i18n="footer.privacy">
+              Privacy Policy
+            </a>
+            <a id="footer-terms" href="#" target="_blank" rel="noopener noreferrer" data-i18n="footer.terms">
+              Terms of Use
+            </a>
+            <a id="footer-contact" href="mailto:hugpill@icloud.com" data-i18n="footer.contact">
+              Contact Support
+            </a>
+          </div>
+        </div>
+        <p class="disclaimer" data-i18n="footer.disclaimer"></p>
+      </div>
+    </footer>
+
+    <!-- App Store Review Modal -->
+    <div class="modal-backdrop" id="review-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-card">
+        <h3 id="modal-title" data-i18n="modal.title">Currently in App Store Review</h3>
+        <p data-i18n="modal.body"></p>
+        <div class="modal-actions">
+          <a class="btn-primary" id="modal-email-btn" href="mailto:hugpill@icloud.com" data-i18n="modal.emailBtn">
+            Email hugpill@icloud.com
+          </a>
+          <button class="btn-secondary" id="modal-close-btn" type="button" data-i18n="modal.closeBtn">
+            Got it
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./site-config.js"></script>
+    <script src="./i18n.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
