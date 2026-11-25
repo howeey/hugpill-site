@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://howeey.github.io/hugpill-site/sitemap.xml
