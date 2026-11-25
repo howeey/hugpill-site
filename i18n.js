@@ -111,7 +111,7 @@ window.HUGPILL_I18N = {
       paragraphs: [
         "I have two daughters, ages 5 and 10. Every week our family juggles Vitamin D, kids' supplements, and evening eye drops. Regular phone alarms drove me crazy—one sleepy swipe in the morning and I completely forgot whether I actually took anything.",
         "Other pill apps felt either like a cold hospital spreadsheet or bombarded me with ads and sign-up walls. So I built HugPill for my own family: a calm, cozy corner where a smiling axolotl (and a warm otter friend) waits with a cup of tea.",
-        "I'm rolling it out across 171 App Store regions right now (no sign-up, no tracking, just local + your private iCloud). If it helps your family remember one more dose without stress, that makes my day.",
+        "It's now live on the App Store across 171 regions (no sign-up, no tracking, just local + your private iCloud). If it helps your family remember one more dose without stress, that makes my day.",
       ],
       sign: "— Built with care in late-night dad hours · hugpill@icloud.com",
       axolotlName: "Smiling Axolotl",
@@ -167,8 +167,8 @@ window.HUGPILL_I18N = {
           a: "Instead of disappearing forever like a normal alarm, HugPill gently follows up 30 minutes later, then hourly until your bedtime cutoff—until you actually tap Taken.",
         },
         {
-          q: "When will it be on the App Store?",
-          a: "Version 1.0 has just been submitted to Apple for review across 171 App Store countries and regions (excluding Mainland China). This page will switch directly to the App Store link as soon as it clears review.",
+          q: "Where can I download HugPill?",
+          a: "HugPill 1.0 is now live on the App Store for iPhone (iOS 18+) across 171 countries and regions (excluding Mainland China). Tap the download button above or search “HugPill” in the App Store.",
         },
         {
           q: "What dosing schedules and eye drops does it support?",
@@ -299,7 +299,7 @@ window.HUGPILL_I18N = {
       paragraphs: [
         "我是两个女儿的爸爸，大宝 10 岁、二宝 5 岁。家里每天要记大人和孩子的维生素 D、日常补剂还有睡前眼药水。系统自带闹钟对我完全不管用——手滑划掉之后，过十分钟就彻底忘了到底吃没吃。",
         "市面上的提醒 App 要么像冰冷的医院表格，要么还没开始记就弹登录框和广告。于是我利用晚上哄完娃后的时间，写了这款只给我和家人用的小工具：让一只微笑六角龙捧着温水杯守在桌面上。",
-        "1.0 版本已经提交给苹果审核，准备面向海外 171 个国家/地区上架（暂不含中国大陆）。如果它也能帮到你或家人少漏掉几次药，我就很开心了。",
+        "1.0 正式版现已在全球 171 个国家/地区的 App Store 上架（暂不含中国大陆）。如果它也能帮到你或家人少漏掉几次药，我就很开心了。",
       ],
       sign: "— 一位两个女儿的爸爸 · hugpill@icloud.com",
       axolotlName: "微笑六角龙",
@@ -355,8 +355,8 @@ window.HUGPILL_I18N = {
           a: "只要还没在 App、桌面小组件或锁屏按钮点“吃过啦 / 滴过啦”，系统就会先在 30 分钟后轻声再问一次，之后每小时温和提醒直至睡前。",
         },
         {
-          q: "什么时候可以下载？哪些地区可以用？",
-          a: "1.0 正式版已提交 App Store 审核，覆盖全球 171 个国家与地区（暂不含中国大陆）。审核通过后本页面按钮会第一时间直达下载页。",
+          q: "在哪里可以下载？哪些地区能用？",
+          a: "药宝宝（HugPill）1.0 现已在 App Store 正式上架，支持 iPhone（iOS 18+），覆盖全球 171 个国家与地区（暂不含中国大陆）。点击页面顶部下载按钮或在商店搜索「HugPill」即可免费下载。",
         },
         {
           q: "支持哪些服药规律？非每天吃的补剂和眼药水能记吗？",
@@ -487,7 +487,7 @@ window.HUGPILL_I18N = {
       paragraphs: [
         "我有兩個女兒，大的 10 歲、小的 5 歲。家裡每天要顧大人小孩的維他命 D、日常保健品還有眼藥水。我超受不了手機鬧鐘——早上恍神滑掉，十分鐘後就完全想不起到底吃了沒。",
         "找了幾個吃藥 App，不是像冷冰冰的醫院表單，就是一打開就要註冊看廣告。於是我趁晚上孩子睡了之後，親手寫了這個小工具：讓一隻微笑六角龍捧著暖水杯在桌面陪我們。",
-        "1.0 正式版剛送交 Apple 審核，即將在全球 171 個國家與地區上架（香港、台灣、澳門與海外皆可下載）。希望它也能幫你和家人輕鬆記住每一份照顧。",
+        "1.0 正式版現已在全球 171 個國家與地區的 App Store 上架（台灣、香港、澳門與海外皆可免費下載）。希望它也能幫你和家人輕鬆記住每一份照顧。",
       ],
       sign: "— 一位兩個女兒的爸爸 · hugpill@icloud.com",
       axolotlName: "微笑六角龍",
@@ -532,7 +532,7 @@ window.HUGPILL_I18N = {
     },
     faq: {
       kicker: "常見問題",
-      title: "上架前你可能想知道的事",
+      title: "你可能想知道的事",
       items: [
         {
           q: "需要註冊帳號嗎？健康紀錄會上傳伺服器嗎？",
@@ -543,8 +543,8 @@ window.HUGPILL_I18N = {
           a: "只要還沒點擊「吃過啦 / 滴過啦」，它會在 30 分鐘後輕聲再提醒，之後每小時提醒至睡前截止。",
         },
         {
-          q: "什麼時候上架？台灣和香港都可以下載嗎？",
-          a: "1.0 已提交 App Store 審核，涵蓋全球 171 個地區（包含台灣、香港、澳門及美日韓等）。過審後本頁按鈕會直接連往 App Store。",
+          q: "在哪裡可以下載？台灣和香港都可以用嗎？",
+          a: "藥寶寶（HugPill）1.0 現已在 App Store 正式上架（支援 iPhone · iOS 18+），涵蓋台灣、香港、澳門及美日韓等 171 個地區，點擊頁面頂部按鈕或搜尋「HugPill」即可下載。",
         },
         {
           q: "支援哪些吃藥頻率？不是每天吃的保健品或眼藥水也能記嗎？",
@@ -675,7 +675,7 @@ window.HUGPILL_I18N = {
       paragraphs: [
         "私には5歳と10歳の娘がいます。家族で毎日のビタミンDやサプリ、夜の目薬を続けているのですが、iPhoneの標準アラームはスワイプして止めた瞬間に「あれ、もう飲んだっけ？」と忘れてしまうことが何度もありました。",
         "既存の服薬アプリは病院の表のように堅苦しかったり、広告や会員登録が必須だったり。それなら自分たちのためにと、夜寝かしつけのあとに少しずつ個人開発したのが HugPill です。",
-        "現在バージョン1.0をApp Storeへ審査提出中です（世界171の国・地域対応）。忙しい毎日の中で、同じ悩みを持つご家庭の助けになれば嬉しいです。",
+        "現在バージョン1.0をApp Storeにて公開中です（日本を含む世界171の国・地域対応）。忙しい毎日の中で、同じ悩みを持つご家庭の助けになれば嬉しいです。",
       ],
       sign: "— 2児のパパ・個人開発者 · hugpill@icloud.com",
       axolotlName: "スマイル・ウーパールーパー",
@@ -720,7 +720,7 @@ window.HUGPILL_I18N = {
     },
     faq: {
       kicker: "よくある質問",
-      title: "リリース前のQ&A",
+      title: "よくあるQ&A",
       items: [
         {
           q: "アカウント登録や個人情報の送信は必要ですか？",
@@ -731,8 +731,8 @@ window.HUGPILL_I18N = {
           a: "記録ボタンを押さない限り、30分後にそっと再通知し、その後はおやすみ時刻まで1時間おきにお知らせします。",
         },
         {
-          q: "いつApp Storeで公開されますか？",
-          a: "現在Appleの審査待ちです。承認され次第、このページのボタンからそのままApp Storeへ飛べるようになります。",
+          q: "どこからダウンロードできますか？",
+          a: "日本を含む171の国と地域のApp Storeで無料配信中です（iPhone・iOS 18以降対応）。ページ上部のボタン、またはApp Storeで「HugPill」と検索してダウンロードできます。",
         },
         {
           q: "毎日以外のお薬や周期的なサプリ、目薬にも対応していますか？",
@@ -863,7 +863,7 @@ window.HUGPILL_I18N = {
       paragraphs: [
         "저에게는 5살, 10살 두 딸이 있습니다. 온 가족이 매일 비타민 D와 영양제, 저녁 안약을 챙겨야 하는데, 아이폰 기본 알람은 잠결에 밀어서 끄고 나면 방금 먹었는지조차 까맣게 잊어버리곤 했어요.",
         "기존 약 알림 앱들은 차가운 병원 기록표 같거나 처음부터 회원가입과 광고가 쏟아지더라고요. 그래서 밤마다 아이들을 재운 뒤 우리 가족을 위해 직접 만들기 시작했습니다.",
-        "현재 버전 1.0을 App Store 심사에 제출해 두었고 한국을 포함한 171개 국가에서 곧 만나보실 수 있어요. 바쁜 일상 속에서 조금이나마 든든한 도움이 되길 바랍니다.",
+        "현재 버전 1.0이 한국을 포함한 171개국 App Store에 정식 출시되었습니다. 바쁜 일상 속에서 조금이나마 든든한 도움이 되길 바랍니다.",
       ],
       sign: "— 두 딸의 아빠이자 1인 개발자 · hugpill@icloud.com",
       axolotlName: "미소 짓는 우파루파",
@@ -908,7 +908,7 @@ window.HUGPILL_I18N = {
     },
     faq: {
       kicker: "자주 묻는 질문",
-      title: "출시 전 궁금하실 점들",
+      title: "궁금하실 점들",
       items: [
         {
           q: "회원가입이 필요하거나 건강 기록이 서버로 전송되나요?",
@@ -919,8 +919,8 @@ window.HUGPILL_I18N = {
           a: "체크인 버튼을 누르기 전까지는 30분 뒤에 부드럽게 다시 알려드리고, 이후 취침 시간 전까지 매시간 챙겨드려요.",
         },
         {
-          q: "언제 App Store에서 받을 수 있나요?",
-          a: "1.0 정식 버전이 현재 Apple 심사 대기 중입니다. 심사가 통과되는 대로 이 페이지 버튼이 App Store 다운로드 링크로 바로 연결됩니다.",
+          q: "어디서 다운로드할 수 있나요?",
+          a: "한국을 포함한 171개국 App Store에서 무료로 다운로드할 수 있습니다(iPhone · iOS 18 이상). 상단 다운로드 버튼을 누르거나 App Store에서 ‘HugPill’을 검색해 보세요.",
         },
         {
           q: "매일 먹지 않는 영양제나 주기적인 약, 안약도 기록할 수 있나요?",

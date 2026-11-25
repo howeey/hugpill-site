@@ -1,14 +1,13 @@
 /**
  * HugPill (药宝宝 / 藥寶寶) 官网配置
- * 过审后只需填入 10 位纯数字 appStoreID（例如 "6739123456"），
- * 再运行 ./publish_gh_pages.sh，全站下载按钮与 iOS Safari 顶部原生下载横幅会自动生效并推送上线。
+ * 已接入正式 App Store ID（6837860725），全站按钮与 iOS Safari 顶部原生下载横幅均直达官方商店页。
  */
 window.HUGPILL_CONFIG = {
-  // 苹果后台 App 信息里的 10 位数字 Apple ID（审核期间留空 "" 即可）
-  appStoreID: "",
+  // 苹果官方 10 位数字 Apple ID（通过 Apple iTunes Lookup API 实测核验）
+  appStoreID: "6837860725",
 
-  // 可选自定义商店链接；留空但填了 appStoreID 时会自动拼出 https://apps.apple.com/app/id<appStoreID>
-  appStoreURL: "",
+  // 全球通用 App Store 商店链接（自动匹配访客所在国家/地区商店）
+  appStoreURL: "https://apps.apple.com/app/id6837860725",
 
   // 合规与客服信息（与 App 内 AppLanguage.swift 保持一致）
   supportEmail: "hugpill@icloud.com",
